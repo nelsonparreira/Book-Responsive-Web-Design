@@ -1,0 +1,37 @@
+
+#page {
+  background-color: blue;
+  height: 200px;
+
+
+  margin: 36px auto;
+  width: 90%; /* 960px */
+
+}
+
+.blog {
+  background-color: lightblue;
+  height: 180px;
+
+
+  margin: 0 auto 53px;
+  width: 93.75%; /* 900px divided by 960 */
+}
+
+.blog .main {
+  background-color: red;
+  height: 100px;
+
+
+  float: left;
+  width: 62.8888889%; /* 566px / 900px */
+}
+
+.blog .other {
+  background-color: darkblue;
+  height: 100px;
+
+
+  float: right;
+  width: 36.7777778%; /* 331px / 900px */
+}
