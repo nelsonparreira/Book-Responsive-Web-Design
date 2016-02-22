@@ -1,0 +1,24 @@
+body {
+  background-color: #dcdbd9;
+  color:#2C2C2C;
+
+ font: normal 100% Cambria, Georgia, serif;
+/*font-family: "Cambria", "Georgia", serif;
+font-weight: normal;
+font-size: 100%; */
+}
+
+h1 {
+  font-size: 1.5em;  /* 24 dividedby 16 */
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+h1 a {
+  color: #747474;
+  font: bold 0.458333333333333em Calibri, Optima, Arial, sans-serif; /* 11 divided by 24 // remember that the target is relative to the content and the size of h1, is content is 24  */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
